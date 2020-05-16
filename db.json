@@ -1,0 +1,25 @@
+[
+    {
+        "header": true,
+        "title": "دنـا",
+        "hiddenOnCollapse": true
+    },
+    {
+        "href": "/",
+        "title": "داشبورد",
+        "icon": "fa fa-cube",
+        "componentName": "dashboard"
+    },
+    {
+        "href": "/",
+        "title": "پروفایل",
+        "icon": "fa fa-person",
+        "componentName": "profile"
+    },
+    {
+        "href": "/",
+        "title": "نمونه",
+        "icon": "fa fa-tools",
+        "componentName": "sample"
+    }
+]
