@@ -1,4 +1,5 @@
-[
+{
+  "menus": [
     {
         "header": true,
         "title": "دنـا",
@@ -22,4 +23,8 @@
         "icon": "fa fa-tools",
         "componentName": "sample"
     }
-]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
