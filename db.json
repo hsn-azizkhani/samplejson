@@ -1,36 +1,179 @@
 {
-  "menus": [
-    {
-        "header": true,
-        "title": "دنـا",
-        "hiddenOnCollapse": true
-    },
-    {
-        "href": "/",
-        "title": "داشبورد",
-        "icon": "fa fa-cube",
-        "componentName": "dashboard"
-    },
+    "menus":[
        {
-        "href": "/",
-        "title": "پروفایل",
-        "icon": "fa fa-cube",
-        "child": [
-               {
-               title: 'Sub Link'
-               "icon": "fa fa-cube",
-               "componentName": "profile"
-               }
+          "header":true,
+          "title":"دنـا",
+          "hiddenOnCollapse":true
+       },
+       {
+          "href":"/",
+          "title":"نمونه",
+          "icon":"fa fa-tools",
+          "componentName":"sample"
+       },
+       {
+          "href":"/",
+          "title":"داشبورد",
+          "icon":"fa fa-cube",
+          "componentName":"dashboard"
+       },
+       {
+          "href":"/",
+          "title":"پروفایل",
+          "icon":"fa fa-cube",
+          "child":[
+             {
+                "title":"پروفایل کاربر",
+                "icon":"fa fa-cube",
+                "componentName":"profile"
+             }
+          ]
+       },
+       {
+          "href":"/",
+          "title":"عملیات پشتیبانی",
+          "icon":"fa fa-cube",
+          "child":[
+             {
+                "title":"سفارشات خرید",
+                "icon":"fa fa-cube",
+                "componentName":""
+             },
+             {
+                "title":"سفارشات استرداد",
+                "icon":"fa fa-cube",
+                "componentName":""
+             },
+             {
+                "title":"خریدهای دستی",
+                "icon":"fa fa-cube",
+                "componentName":""
+             },
+             {
+                "title":"پنل ترجمه",
+                "icon":"fa fa-cube",
+                "componentName":""
+             }
+          ]
+       },
+       {
+        "href":"/",
+        "title":"مدیریت مالی",
+        "icon":"fa fa-cube",
+        "child":[
+           {
+              "title":"راهکاران",
+              "icon":"fa fa-cube",
+              "componentName":""
+           },
+           {
+              "title":"مدیریت درخواست های پرداخت",
+              "icon":"fa fa-cube",
+              "componentName":""
+           },
+           {
+              "title":"مدیریت مطالبات",
+              "icon":"fa fa-cube",
+              "componentName":""
+           },
+           {
+              "title":"گزارش واریزی ها",
+              "icon":"fa fa-cube",
+              "componentName":""
+           }
         ]
-    },
-    {
-        "href": "/",
-        "title": "نمونه",
-        "icon": "fa fa-tools",
-        "componentName": "sample"
+     },
+     {
+        "href":"/",
+        "title":"مدیریت کاربران",
+        "icon":"fa fa-cube",
+        "child":[
+           {
+              "title":"مدیریت کاربران آلترابو",
+              "icon":"fa fa-cube",
+              "componentName":""
+           },
+           {
+              "title":"مدیریت کاربران دنا",
+              "icon":"fa fa-cube",
+              "componentName":""
+           }
+        ]
+     },
+     {
+        "href":"/",
+        "title":"گزارشات",
+        "icon":"fa fa-cube",
+        "child":[
+           {
+              "title":"گزارش فروش",
+              "icon":"fa fa-cube",
+              "componentName":""
+           },
+           {
+              "title":"گزارشات مالی",
+              "icon":"fa fa-cube",
+              "componentName":""
+           },
+           {
+              "title":"گزارشات کاربران",
+              "icon":"fa fa-cube",
+              "componentName":""
+           },
+           {
+              "title":"گزارشات مدیریتی",
+              "icon":"fa fa-cube",
+              "componentName":""
+           }
+        ]
+     },
+     {
+        "href":"/",
+        "title":"نوتیفیکیشن",
+        "icon":"fa fa-cube",
+        "child":[
+           {
+              "title":"ارسال پیام به کاربران آلترابو",
+              "icon":"fa fa-cube",
+              "componentName":""
+           },
+           {
+              "title":"اس ام اس",
+              "icon":"fa fa-cube",
+              "componentName":""
+           },
+           {
+              "title":"ایمیل",
+              "icon":"fa fa-cube",
+              "componentName":""
+           }
+        ]
+     },
+     {
+        "href":"/",
+        "title":"مانیتورینگ",
+        "icon":"fa fa-tools",
+        "componentName":""
+     },
+     {
+        "href":"/",
+        "title":"عملیات مدیریتی ",
+        "icon":"fa fa-cube",
+        "child":[
+           {
+              "title":"rule engine",
+              "icon":"fa fa-cube",
+              "componentName":""
+           },
+           {
+              "title":"Price engine",
+              "icon":"fa fa-cube",
+              "componentName":""
+           }
+        ]
+     }
+    ],
+    "profile":{
+       "name":"typicode"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+ }
