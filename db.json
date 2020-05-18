@@ -7,12 +7,6 @@
        },
        {
           "href":"/",
-          "title":"نمونه",
-          "icon":"fa fa-tools",
-          "componentName":"sample"
-       },
-       {
-          "href":"/",
           "title":"داشبورد",
           "icon":"fa fa-cube",
           "componentName":"dashboard"
@@ -28,6 +22,12 @@
                 "componentName":"profile"
              }
           ]
+       },
+       {
+          "href":"/",
+          "title":"نمونه",
+          "icon":"fa fa-tools",
+          "componentName":"sample"
        },
        {
           "href":"/",
