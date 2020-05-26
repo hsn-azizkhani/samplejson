@@ -37,7 +37,7 @@
              {
                 "title":"سفارشات خرید",
                 "icon":"fa fa-cube",
-                "componentName":""
+                "componentName":"order"
              },
              {
                 "title":"سفارشات استرداد",
