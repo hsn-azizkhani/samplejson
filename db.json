@@ -178,7 +178,7 @@
     },
     "buy":[
         {
-            "address": "507/1 Brodie Spark Drive, Wolli Creek",
+            "address": "111507/1 Brodie Spark Drive, Wolli Creek",
             "balcony": 1,
             "bathroom": 1,
             "bedroom": 1,
@@ -200,7 +200,7 @@
     ],
     "sell":[
         {
-            "address": "507/1 Brodie Spark Drive, Wolli Creek",
+            "address": "222507/1 Brodie Spark Drive, Wolli Creek",
             "balcony": 1,
             "bathroom": 1,
             "bedroom": 1,
@@ -222,7 +222,7 @@
     ],
     "lease":[
         {
-            "address": "507/1 Brodie Spark Drive, Wolli Creek",
+            "address": "333507/1 Brodie Spark Drive, Wolli Creek",
             "balcony": 1,
             "bathroom": 1,
             "bedroom": 1,
