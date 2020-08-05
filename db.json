@@ -11,7 +11,7 @@
             "componentName": "dashboard"
         },
         {
-            "href": "/",
+            "href": "/profile",
             "title": "پروفایل",
             "icon": "fa fa-cube",
             "child": [{
@@ -21,17 +21,17 @@
             }]
         },
         {
-            "href": "/",
+            "href": "/sample",
             "title": "نمونه",
             "icon": "fa fa-tools",
             "componentName": "sample"
         },
         {
-            "href": "/",
+            "href": "/support",
             "title": "عملیات پشتیبانی",
             "icon": "fa fa-cube",
             "child": [{
-                    "href": "/",
+                    "href": "/manual-purchase",
                     "title": "خریدهای دستی",
                     "icon": "fa fa-hands-helping",
                     "child": [{
