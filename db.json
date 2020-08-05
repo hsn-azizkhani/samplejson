@@ -34,6 +34,25 @@
           "title":"عملیات پشتیبانی",
           "icon":"fa fa-cube",
           "child":[
+		       {
+				  "href":"/",
+				  "title":"خریدهای دستی",
+				  "icon":"fa fa-hands-helping",
+				  "child":[
+					 {
+						"title":"هواپیما",
+						"icon":"fa fa-plane",
+						"directory":"manual-purchase",
+						"componentName":"manual-purchase-flight"
+					 },
+					 {
+						"title":"هتل",
+						"icon":"fa fa-hotel",
+						"directory":"manual-purchase",
+						"componentName":"manual-purchase-hotel"
+					 }
+				  ]
+			 },
              {
                 "title":"سفارشات خرید",
                 "icon":"fa fa-cube",
@@ -41,11 +60,6 @@
              },
              {
                 "title":"سفارشات استرداد",
-                "icon":"fa fa-cube",
-                "componentName":""
-             },
-             {
-                "title":"خریدهای دستی",
                 "icon":"fa fa-cube",
                 "componentName":""
              },
