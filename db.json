@@ -38,7 +38,7 @@
                      "title": "پرواز داخلی",
                      "icon": "fa fa-plane",
                      "parentPage": "orders",
-                     "componentName": "FlightDomestic"
+                     "componentName": "flightDomestic"
                   },
                   {
                      "title": "پرواز خارجی",
@@ -68,7 +68,7 @@
                      "title": "پرواز داخلی",
                      "icon": "fa fa-plane",
                      "parentPage": "refunds",
-                     "componentName": "FlightDomestic"
+                     "componentName": "flightDomestic"
                   },
                   {
                      "title": "پرواز خارجی",
@@ -98,7 +98,7 @@
                      "title": "پرواز داخلی",
                      "icon": "fa fa-plane",
                      "parentPage": "manualPurchases",
-                     "componentName": "FlightDomestic"
+                     "componentName": "flightDomestic"
                   },
                   {
                      "title": "پرواز خارجی",
