@@ -31,56 +31,92 @@
          "title": "عملیات پشتیبانی",
          "icon": "fa fa-users-cog",
          "child": [{
-               "href": "/",
+               "href": "/orders",
                "title": "سفارشات خرید",
                "icon": "fa fa-shopping-cart",
                "child": [{
-                     "title": "هواپیما",
+                     "title": "پرواز داخلی",
                      "icon": "fa fa-plane",
-                     "directory": "manual-purchase",
-                     "componentName": "manual-purchase-flight"
+                     "parentPage": "orders",
+                     "componentName": "FlightDomestic"
                   },
                   {
-                     "title": "هتل",
+                     "title": "پرواز خارجی",
+                     "icon": "fa fa-plane",
+                     "parentPage": "orders",
+                     "componentName": "flightInternational"
+                  },
+                  {
+                     "title": "هتل داخلی",
                      "icon": "fa fa-hotel",
-                     "directory": "manual-purchase",
-                     "componentName": "manual-purchase-hotel"
+                     "parentPage": "orders",
+                     "componentName": "hotelDomestic"
+                  },
+                  {
+                     "title": "هتل خارجی",
+                     "icon": "fa fa-hotel",
+                     "parentPage": "orders",
+                     "componentName": "hotelInternational"
                   }
                ]
             },
             {
-               "href": "/",
+               "href": "/refunds",
                "title": "سفارشات استرداد",
                "icon": "fa fa-undo-alt",
                "child": [{
-                     "title": "هواپیما",
+                     "title": "پرواز داخلی",
                      "icon": "fa fa-plane",
-                     "directory": "manual-purchase",
-                     "componentName": "manual-purchase-flight"
+                     "parentPage": "refunds",
+                     "componentName": "FlightDomestic"
                   },
                   {
-                     "title": "هتل",
+                     "title": "پرواز خارجی",
+                     "icon": "fa fa-plane",
+                     "parentPage": "refunds",
+                     "componentName": "flightInternational"
+                  },
+                  {
+                     "title": "هتل داخلی",
                      "icon": "fa fa-hotel",
-                     "directory": "manual-purchase",
-                     "componentName": "manual-purchase-hotel"
+                     "parentPage": "refunds",
+                     "componentName": "hotelDomestic"
+                  },
+                  {
+                     "title": "هتل خارجی",
+                     "icon": "fa fa-hotel",
+                     "parentPage": "refunds",
+                     "componentName": "hotelInternational"
                   }
                ]
             },
             {
-               "href": "/",
+               "href": "/manualPurchases",
                "title": "خریدهای دستی",
                "icon": "fa fa-hands-helping",
                "child": [{
-                     "title": "هواپیما",
+                     "title": "پرواز داخلی",
                      "icon": "fa fa-plane",
-                     "directory": "manual-purchase",
-                     "componentName": "manual-purchase-flight"
+                     "parentPage": "manualPurchases",
+                     "componentName": "FlightDomestic"
                   },
                   {
-                     "title": "هتل",
+                     "title": "پرواز خارجی",
+                     "icon": "fa fa-plane",
+                     "parentPage": "manualPurchases",
+                     "componentName": "flightInternational"
+                  },
+                  {
+                     "title": "هتل داخلی",
                      "icon": "fa fa-hotel",
-                     "directory": "manual-purchase",
-                     "componentName": "manual-purchase-hotel"
+                     "parentPage": "manualPurchases",
+                     "componentName": "hotelDomestic"
+                  },
+                  {
+                     "title": "هتل خارجی",
+                     "icon": "fa fa-hotel",
+                     "parentPage": "manualPurchases",
+                     "componentName": "hotelInternational"
                   }
                ]
             },
