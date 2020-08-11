@@ -14,7 +14,9 @@
          "href": "/",
          "title": "داشبورد",
          "icon": "fa fa-chart-line",
-         "componentName": "dashboard"
+         "componentNameddd": "dashboard",
+         "parentPage": "manualPurchases",
+         "componentName": "flightInternational"
       },
       {
          "href": "/",
